@@ -1,6 +1,6 @@
-![ga](http://mobbook.generalassemb.ly/ga_cog.png)
+![ga](https://camo.githubusercontent.com/6ce15b81c1f06d716d753a61f5db22375fa684da/68747470733a2f2f67612d646173682e73332e616d617a6f6e6177732e636f6d2f70726f64756374696f6e2f6173736574732f6c6f676f2d39663838616536633963333837313639306533333238306663663535376633332e706e67)
 
-# wdi-CC2-funky-ducks
+# wdi-cc
 
 ---
 Title: Arrays, Loops, and Conditional Reps <br>
@@ -8,7 +8,6 @@ Type: Homework<br>
 Duration: "4:00"<br>
 Creator: WDI-Funke<br>
     Modified by: Kristyn Bryan and then by: Reuben Ayres<br>
-    Course: chi-wdi-10<br>
 Competencies: Arrays, Loops, Conditionals <br>
 Language: JavaScript <br>
 
@@ -17,9 +16,9 @@ Language: JavaScript <br>
 
 ## Setup
 
-1) Get in today's directory in your `funky-ducks` folder.
+1) Get in today's directory in your `salty-sardines` directory.
 
-1.5) From inside of today's directory, Fork this repo and clone it.  
+1.5) From inside of today's directory, *Fork* this repo and clone it. (While you're doing that, ask yourself: Why are we forking and cloning and not just cloning)?  
 
 2) (Did you see this coming?) Build our file structure and put your answers in `app.js`.
 
@@ -33,7 +32,7 @@ Please use the commit messages that you see at the end of each section (you can 
 
 7) When you are done with your homework, push and make a pull request.
 
-Final note: You are not alone! Everyone else in the class is working on this as well. Communicate with each other on Slack.
+Final note: You are not alone! Everyone else in the class is working on this as well. Communicate with each other.
 
 
 ## Easy Going
@@ -86,19 +85,24 @@ Final note: You are not alone! Everyone else in the class is working on this as 
 
 ## Getting to Know You
 Use the following arrays to answer the questions below (name, age, hometown):
+```javascript
+const shahzad = ["Shahzad", 1000, "Austin"];
+const jim = ["Jim", 16, "All cities"];
+const reuben = ["Reuben", 22, "Durham"];
+const daniel = ["Daniel", 186, "Dallas"];
+const ryan = ["Ryan", 65, "Denver"];
 ```
-const thom = ["Thom", 1000, "Christchurch"]
-const karolin = ["Karolin", 16, "New York"]
-const kristyn = ["Kristyn", 5, "Pittsburgh"]
-const matt = ["Matt H", 186, "Philadelphia"]
-```
-1. Matt H. decides that Thom. can't be named "Thom" anymore. Remove "Thom" from the `thom` array and replace it with "Gameboy".
+1. Daniel decides that Shahzad. can't be named "Shahzad" anymore. Remove "Shahzad" from the `shahzad` array and replace it with "Gameboy".
 
-2. Karolin just had her birthday; change Karolin's array to reflect her being a year older.
+2. Daniel just had his birthday; change Daniel's array to reflect him being a year older.  Don't just hard code `187`.
 
-3. Change Matt H's hometown from Philadelphia to "Gotham City".
+3. Change Ryan's hometown from "Denver" to "Gotham City".
 
-4. Remove "Pittsburgh" from Kristyn's array and add "Brooklyn".
+4. Remove "Durham" from Reuben's array and add "Chicago". (Remove and then add is different from simply changing the value at that index.)
+
+5. Jim could be anywhere in the world. Remove "All cities" from his array, then pick any 3 cities you like, and add them to Jim's array.
+
+6. Bonus: Whoops! Jim can actually only be in the 2 cities.  Whatever the first of the 3 cities for Jim is now, remove it from the array using [`.splice()`](https://www.google.com/search?q=mdn+splice&oq=mdn+splice&aqs=chrome.0.0j69i60j0l4.1078j0j7&sourceid=chrome&ie=UTF-8)
 
 <hr>
 &#x1F534; The commit message should read: <br>
@@ -108,7 +112,9 @@ const matt = ["Matt H", 186, "Philadelphia"]
 ## Yell at the Ninja Turtles
 1. Create an array with the members of the ninja turtles (Donatello, Leonardo, Raphael, Michaelangelo)
 
-2. Use a `for loop` to call `toUpperCase()` on each of them and print out the result.
+2. Use a `for loop` to call `.toUpperCase()` on each of them and print out the result.
+
+3. Bonus: Modify the answer you just wrote. Instead of all letters being uppercase, make the letters alternate back and forth between uppercase and lowercase.
 
 <hr>
 &#x1F534; The commit message should read: <br>
@@ -156,7 +162,7 @@ const thomsCloset = [
 ### Alien Attire
 1. Kristyn's left shoe has traveled through time and space and turned up in Thom's accessories drawer! Remove Kristyn's shoe from the array and save it to the variable `kristynsShoe`. Use that variable to add Kristyn's lost shoe to Thom's accessories array.
 
-### Dress Us Up
+### Dress 'em Up
 1. Modify your code to put together **3 separate outfits** for Kristyn and Thom. Put the output in a sentence to tell us what we'll be wearing. Mix and match!
 
 <hr>
@@ -169,7 +175,7 @@ Continue looking at the closet arrays:
 1. Time to do laundry - loop through Kristyn's closet and log the sentence "WHIRR: Now washing (item)" for each item in the array.
 
 ### Inventory
-2. Thom wants to do inventory on his closet. Using **bracket notation**, log the arrays containing all of Thom's shirts, pants, and accessories.
+2. Thom wants to do inventory on his closet. Using **bracket notation**, log the **arrays** (not the elements in the arrays) containing all of Thom's shirts, pants, and accessories.
 
 <hr>
 &#x1F534; The commit message should read: <br>
@@ -182,9 +188,11 @@ _Yes, you might have tackled this earlier, but try it again (don't look back at 
 
 If we list all the natural numbers below 10 that are multiples of 3 or 5, we get 3, 5, 6 and 9. The sum of these multiples is 23.
 
-Find the sum of all the multiples of 3 or 5 below 1000.
+Find the **sum** of all the multiples of 3 or 5 below 1000.
 
 :clap: You just solved [Project Euler](https://projecteuler.net/problem=1) problem 1! :clap:
+
+>Tip: Get used to thinking about how to solve problems _now_. Will help immensely with coding challenges, and get your coding brain muscles nice and flexed for the class. Make a habit of going to Project Euler and taking a crack at the problems
 
 <hr>
 &#x1F534; The commit message should read: <br>
@@ -202,7 +210,8 @@ Find the sum of all the multiples of 3 or 5 below 1000.
 
 1. Write a loop that console logs a "left isosceles" triangle (SEE BELOW) made of '#' that has the height and length of `argument`.
 
->Ex: argument is 7
+>Ex: `argument` is 7
+
 ```
 #
 ##
@@ -215,7 +224,8 @@ Find the sum of all the multiples of 3 or 5 below 1000.
 
 2. Write a loop that console logs a "right isosceles" triangle (SEE BELOW) made of '#' that has the height and length of `argument`.  This is deceptively tricky. 
 
->Ex: argument is 7
+>Ex: `argument` is 7
+
 ```
       #
      ##
@@ -229,7 +239,8 @@ Find the sum of all the multiples of 3 or 5 below 1000.
 
 3. Write a loop that console logs an "upside down left" isosceles triangle made of '#' that has the height and length of the argument.
 
->Ex: argument is 7
+>Ex: `argument` is 7
+
 ```
 #######
 ######
@@ -242,7 +253,8 @@ Find the sum of all the multiples of 3 or 5 below 1000.
 
 4. Write a loop that console logs an "upside down right" isosceles triangle made of '#' that has the height and length of the argument.  This is also tricky.
 
->Ex: argument is 7
+>Ex: `argument` is 7
+
 ```
 #######
  ######
@@ -253,7 +265,7 @@ Find the sum of all the multiples of 3 or 5 below 1000.
       #
 ```
 
-5. Change the value of argument and reload your code and marvel at how you just solved a challenging problem and feel proud of yourself.
+5. Change the value of `argument` and reload your code and marvel at how you just solved a challenging problem and feel proud of yourself.
 
 <hr>
 &#x1F534; The commit message should read: <br>
@@ -262,10 +274,14 @@ Find the sum of all the multiples of 3 or 5 below 1000.
 
 ## Find the Median
 - Find the median number in the following `nums` array, then console.log that number.
--  _hint_ if you check the length of the array / 2, you might get not get a whole number. In which case, look into `Math.floor( // something )`
+- _hint_ this will likely involve breaking down the problem into a few steps
+-  _hint_: Click "Details" below (don't read this unless you've been stuck for a while) 
+<details>
+if you check the length of the array / 2, you might get not get a whole number. In which case, look into `Math.floor( // something )`
+</details>
 
-```
-const nums = [14,11,16,15,13,16,15,17,19,11,12,14,19,11,15,17,11,18,12,17,12,71,18,15,12];
+```javascript
+const nums = [14, 11, 16, 15, 13, 16, 15, 17, 19, 11, 12, 14, 19, 11, 15, 17, 11, 18,12, 17, 12, 71, 18, 15, 12];
 
 Expected output:
 => 15
