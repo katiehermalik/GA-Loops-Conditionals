@@ -20,7 +20,7 @@ Language: JavaScript <br>
 
 1. From inside of today's directory, *Fork* this repo and clone it. (While you're doing that, ask yourself: Why are we forking and cloning and not just cloning)?  
 
-3. (Did you see this coming?) Build our file structure (index.html and js file) and put your answers in `app.js`.
+3. (Did you see this coming?) Go into the directory created by the clone and build our file structure (index.html and js file) and put your answers in `app.js`.
 
 4. Keep your answers organized! Included a commented header for each section in your answers file.
 
