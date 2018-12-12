@@ -1,18 +1,15 @@
 ![ga](https://camo.githubusercontent.com/6ce15b81c1f06d716d753a61f5db22375fa684da/68747470733a2f2f67612d646173682e73332e616d617a6f6e6177732e636f6d2f70726f64756374696f6e2f6173736574732f6c6f676f2d39663838616536633963333837313639306533333238306663663535376633332e706e67)
 
-# wdi-cc
+# HW: Arrays, Loops, and Conditional Reps
 
 ---
-Title: Arrays, Loops, and Conditional Reps <br>
 Type: Homework<br>
-Duration: "4:00"<br>
 Creator: WDI-Funke<br>
     Modified by: Kristyn Bryan and then by: Reuben Ayres<br>
 Competencies: Arrays, Loops, Conditionals <br>
 Language: JavaScript <br>
 
 ---
-# Homework
 
 ## Setup
 
@@ -20,19 +17,17 @@ Language: JavaScript <br>
 
 1. From inside of today's directory, *Fork* this repo and clone it. (While you're doing that, ask yourself: Why are we forking and cloning and not just cloning)?  
 
-3. (Did you see this coming?) Inside the directory created by the clone, build our file structure (index.html and js file). Put your answers in `app.js`.
+2. (Did you see this coming?) Inside the directory created by the clone, build our file structure (index.html and js file). Put your answers in `app.js`.
 
-4. Keep your answers organized! Included a commented header for each section in your answers file.
+3. Keep your answers organized! Included a commented header for each section in your answers file.
 
-5. If you're stuck on something for "too long" or get overly frustrated, make a comment and move on. Return to it later.
+4. If you're stuck on something for "too long" or get overly frustrated, make a comment and move on. Return to it later.
 
-6. After each section (even if you're not fully done with it), *add* and *commit* your work. Use the commit messages that you see at the end of each section. If you go back and fix a section, commit again with an updated message.
+5. After each section (even if you're not fully done with it), *add* and *commit* your work. Use the commit messages that you see at the end of each section. If you go back and fix a section, commit again with an updated message.
 
-7) When you are done with your homework, push to your fork and then and make a pull request.
+6. When you are done with your homework, push to your fork and then and make a pull request.
 
-Final notes: 
-* You are not alone! Everyone else in the class is working on this as well. Communicate with each other.
-* Remember: the "Bonus" questions and the "Hungry for More" questions don't count against you, they're just extra questions.
+* Remember: the "Bonus" questions and the "Hungry for More" questions don't count against you, they're just extra questions if you wanna push beyond the baseline.
 
 ## Easy Going
 1. Write a for loop that will log the numbers 1 through 20.
