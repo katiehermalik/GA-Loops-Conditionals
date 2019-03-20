@@ -13,7 +13,7 @@ Language: JavaScript <br>
 
 ## Setup
 
-0. Get in today's directory in your `salty-sardines` directory.
+0. Get in today's directory in your `june-bugs` directory.
 
 1. From inside of today's directory, *Fork* this repo and clone it. (While you're doing that, ask yourself: Why are we forking and cloning and not just cloning)?  
 
