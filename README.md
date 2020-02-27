@@ -13,9 +13,7 @@ Language: JavaScript <br>
 
 ## Setup
 
-0. Get in today's directory in your `sei` directory.
-
-1. From inside of today's directory, *Fork* this repo and clone it. (While you're doing that, ask yourself: Why are we forking and cloning and not just cloning)?  
+1. Fork this repo and clone it into your `sei/homework` directory. (While you're doing that, ask yourself: Why are we forking and cloning and not just cloning)?  
 
 2. (Did you see this coming?) Inside the directory created by the clone, build our file structure (index.html and js file). Put your answers in `app.js`.
 
@@ -64,14 +62,14 @@ Language: JavaScript <br>
 
 >NOTE: THIS IS A CLASSIC RITE-OF-PASSAGE FOR JAVASCRIPT PROGRAMMERS, ESPECIALLY ONES AT GA
 
-1. Write a javascript application that logs all numbers from 1 - 100.
+Write a javascript application that logs all numbers from 1 - 100 **AND**: 
 
-2. If a number is divisible by 3 log "Fizz" instead of the number.
-
-3. If a number is divisible by 5 log "Buzz" instead of the number.
-
-4. If a number is divisible by 3 and 5 log "FizzBuzz" instead of the number.
-
+  1. If a number is divisible by 3 log "Fizz" instead of the number.
+  
+  1. If a number is divisible by 5 log "Buzz" instead of the number.
+  
+  1. If a number is divisible by 3 and 5 log "FizzBuzz" instead of the number, "Fizz", or "Buzz".
+    
 <hr>
 &#x1F534; The commit message should read: <br>
 "Commit 4 - Fizz Buzz answered"
