@@ -12,7 +12,7 @@ Language: JavaScript <br>
 ---
 
 ## Setup
-1. *Fork* this repo and clone it into your `sei/homework` directory. (While you're doing that, ask yourself: Why are we forking and cloning and not just cloning)?  
+1. *Fork* this repo and clone it into your `sei/deliverables` directory. (While you're doing that, ask yourself: Why are we forking and cloning and not just cloning)?  
 
 2. Inside the directory created by the clone, build our file structure (index.html and js file). Put your answers in `app.js`.
 
