@@ -12,10 +12,9 @@ Language: JavaScript <br>
 ---
 
 ## Setup
+1. *Fork* this repo and clone it into your `sei/deliverables` directory. (While you're doing that, ask yourself: Why are we forking and cloning and not just cloning)?  
 
-1. Fork this repo and clone it into your `sei/homework` directory. (While you're doing that, ask yourself: Why are we forking and cloning and not just cloning)?  
-
-2. (Did you see this coming?) Inside the directory created by the clone, build our file structure (index.html and js file). Put your answers in `app.js`.
+2. Inside the directory created by the clone, build our file structure (index.html and js file). Put your answers in `app.js`.
 
 3. Keep your answers organized! Included a commented header for each section in your answers file.
 
@@ -23,7 +22,7 @@ Language: JavaScript <br>
 
 5. After each section (even if you're not fully done with it), *add* and *commit* your work. Use the commit messages that you see at the end of each section. If you go back and fix a section, commit again with an updated message.
 
-6. When you are done with your homework, push to your fork and then and make a pull request.
+6. When you are done with your homework, push up to your forked repo. (git push origin master). Create a pull request from your fork to `r-sei-12/HW-Loops-Conditionals`.
 
 * Remember: the "Bonus" questions and the "Hungry for More" questions don't count against you, they're just extra questions if you wanna push beyond the baseline.
 
