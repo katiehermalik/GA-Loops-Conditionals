@@ -105,3 +105,75 @@
 // console.log(turtleArray);
 
 // //--------------- Return of the Closets ----------------- //
+
+const kristynsCloset = [
+  "left shoe",
+  "cowboy boots",
+  "right sock",
+  "GA hoodie",
+  "green pants",
+  "yellow knit hat",
+  "marshmallow peeps"
+];
+
+// Thom's closet is more complicated. Check out this nested data structure!!
+const thomsCloset = [
+  [
+    // These are Thom's shirts
+    "grey button-up",
+    "dark grey button-up",
+    "light blue button-up",
+    "blue button-up",
+  ],[
+    // These are Thom's pants
+    "grey jeans",
+    "jeans",
+    "PJs"
+  ],[
+    // Thom's accessories
+    "wool mittens",
+    "wool scarf",
+    "raybans"
+  ]
+];
+
+// // // Alien Attire
+// const kristynsShoe = kristynsCloset.shift();
+// console.log(kristynsCloset);
+// thomsCloset[2].unshift(kristynsShoe);
+// console.log(thomsCloset[2]);
+
+// // // Dress'em
+// // // ------assuming Kristyn's left shoe is no longer in thomsCloset (comment out code above.)
+// const a = Math.floor(Math.random()*6)
+// const d = kristynsCloset[a]
+// kristynsCloset.splice(a, 1);
+// console.log(kristynsCloset);
+
+for (i = 1; i < 4; i++) {
+  let a = Math.floor(Math.random()*8);
+  console.log(a);
+  let d = kristynsCloset[a];
+  let b = Math.floor(Math.random()*8);
+  console.log(b);
+  if (b !== a) {
+    let e = kristynsCloset[b]
+  }
+  let c = Math.floor(Math.random()*8);
+  console.log(c);
+  if (c !== a && c !== b)
+    const f = kristynsCloset[c]
+  } 
+  console.log('Kristyn\'s outfit option:\n' + i + '.' + ' Your ' + d + ', your ' + e + ', and your ' + f + '.');
+
+
+// for (i = 1; i < 4; i++) {
+//   const a = thomsCloset[0][Math.floor(Math.random()*4)]
+//   const b = thomsCloset[1][Math.floor(Math.random()*3)]
+//   const c = thomsCloset[2][Math.floor(Math.random()*3)]
+//   console.log('Thom\'s outfit option:\n' + i + '.' + ' A ' + a + ', some ' + b + ', and your ' + c + '.')
+// }
+
+
+// console.log('Tom, you have 3 choices of outfits you can wear:\n 1. A ' + a + ', some ' + b + ', and your ' + c + '.\n 2. A ' + a + ', some ' + b + ', and your ' + c + '.\n 3. A ' + a + ', some ' + b + ', and your ' + c + '.');
+
