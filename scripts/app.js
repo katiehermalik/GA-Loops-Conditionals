@@ -186,3 +186,13 @@ for (i = 1; i < 4; i++) {
 // for (i = 0; i < thomsCloset.length; i++) {
 //   console.log(thomsCloset[i]);
 // }
+
+// //--------------- Multiples of 3 and 5 ----------------- //
+
+// const sumArray = []
+// for (i = 1; i < 1000; i++) {
+//   if (i % 3 === 0 || i % 5 === 0) {
+//     sumArray.push(i);
+//   }
+// }
+// console.log(sumArray.reduce((a,b) => a + b, 0));
