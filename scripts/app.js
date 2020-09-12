@@ -177,3 +177,12 @@ for (i = 1; i < 4; i++) {
 
 // console.log('Tom, you have 3 choices of outfits you can wear:\n 1. A ' + a + ', some ' + b + ', and your ' + c + '.\n 2. A ' + a + ', some ' + b + ', and your ' + c + '.\n 3. A ' + a + ', some ' + b + ', and your ' + c + '.');
 
+// // // Dirty Laundry
+// for (i = 0; i < kristynsCloset.length; i++) {
+//   console.log('WHIRR: Now washing ' + kristynsCloset[i] + '.')
+// }
+ 
+// // // Inventory
+// for (i = 0; i < thomsCloset.length; i++) {
+//   console.log(thomsCloset[i]);
+// }
