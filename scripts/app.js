@@ -74,3 +74,34 @@
 // jimHaff.splice(2, 1);
 // console.log(jimHaff);
 
+// //--------Yell at the Ninja Turtles -------- //
+
+// const turtleArray = ['Donatello', 'Leonardo', 'Raphael', 'Michaelangelo'];
+
+// // 1
+
+// for(i = 0; i < turtleArray.length; i++) {
+//   console.log(turtleArray[i].toUpperCase());
+// }
+
+// // 2
+
+// for(i = 0; i < turtleArray.length; i++) {
+//   const shout = turtleArray[i].toUpperCase();
+//   turtleArray.splice(i, 1, shout);
+// }
+// console.log(turtleArray);
+
+// // 3 - bonus
+
+// for(i = 0; i < turtleArray.length; i++) {
+//   for(j = 0; j < turtleArray[i].length; j++) {
+//     if (turtleArray[i].charAt[j] % 2 === 0) {
+//       const capitol = turtleArray[i].charAt[j].toUpper();
+//       turtleArray[i].charAt[j].splice(j, 1, capitol);
+//     }
+//   }
+// }
+// console.log(turtleArray);
+
+// //--------------- Return of the Closets ----------------- //
