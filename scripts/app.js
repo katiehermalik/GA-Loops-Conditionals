@@ -52,7 +52,7 @@
 
 // // 3
 
-// ryan.splice(2, 1, "Gotham City");
+// ryan[2] = "Gotham City";
 // console.log(ryan);
 
 // // 4
@@ -92,7 +92,7 @@
 // }
 // console.log(turtleArray);
 
-// // 3 - bonus
+// // 3 - bonus (incomplete)
 
 // for(i = 0; i < turtleArray.length; i++) {
 //   for(j = 0; j < turtleArray[i].length; j++) {
@@ -106,36 +106,35 @@
 
 // //--------------- Return of the Closets ----------------- //
 
-const kristynsCloset = [
-  "left shoe",
-  "cowboy boots",
-  "right sock",
-  "GA hoodie",
-  "green pants",
-  "yellow knit hat",
-  "marshmallow peeps"
-];
+// const kristynsCloset = [
+//   "left shoe",
+//   "cowboy boots",
+//   "right sock",
+//   "GA hoodie",
+//   "green pants",
+//   "yellow knit hat",
+//   "marshmallow peeps"
+// ];
 
-// Thom's closet is more complicated. Check out this nested data structure!!
-const thomsCloset = [
-  [
-    // These are Thom's shirts
-    "grey button-up",
-    "dark grey button-up",
-    "light blue button-up",
-    "blue button-up",
-  ],[
-    // These are Thom's pants
-    "grey jeans",
-    "jeans",
-    "PJs"
-  ],[
-    // Thom's accessories
-    "wool mittens",
-    "wool scarf",
-    "raybans"
-  ]
-];
+// const thomsCloset = [
+//   [
+//     // These are Thom's shirts
+//     "grey button-up",
+//     "dark grey button-up",
+//     "light blue button-up",
+//     "blue button-up",
+//   ],[
+//     // These are Thom's pants
+//     "grey jeans",
+//     "jeans",
+//     "PJs"
+//   ],[
+//     // Thom's accessories
+//     "wool mittens",
+//     "wool scarf",
+//     "raybans"
+//   ]
+// ];
 
 // // // Alien Attire
 // const kristynsShoe = kristynsCloset.shift();
@@ -144,38 +143,23 @@ const thomsCloset = [
 // console.log(thomsCloset[2]);
 
 // // // Dress'em
-// // // ------assuming Kristyn's left shoe is no longer in thomsCloset (comment out code above.)
-// const a = Math.floor(Math.random()*6)
-// const d = kristynsCloset[a]
-// kristynsCloset.splice(a, 1);
-// console.log(kristynsCloset);
+// // ------ (I am assuming Kristyn's left shoe is no longer in thomsCloset (comment out code above.))
+// // ------ (I am also assuming Kristyn and Thom can only wear items from their own closets.)
+// // ------ (I am also assuming an outfit is made up of 3 items (top, bottom, and accessory) and that the outfit must be "socially acceptable" (i.e. must have top and bottom at least).)
 
-for (i = 1; i < 4; i++) {
-  let a = Math.floor(Math.random()*8);
-  console.log(a);
-  let d = kristynsCloset[a];
-  let b = Math.floor(Math.random()*8);
-  console.log(b);
-  if (b !== a) {
-    let e = kristynsCloset[b]
-  }
-  let c = Math.floor(Math.random()*8);
-  console.log(c);
-  if (c !== a && c !== b)
-    const f = kristynsCloset[c]
-  } 
-  console.log('Kristyn\'s outfit option:\n' + i + '.' + ' Your ' + d + ', your ' + e + ', and your ' + f + '.');
-
+// const kristynsTop = kristynsCloset.splice(3, 1);
+// const kristynsBtm = kristynsCloset.splice(3, 1);
+// for (i = 1; i < 4; i++) {
+//   const kristynsAcc = kristynsCloset[Math.floor(Math.random()*5)];
+//   console.log('Kristyn, here is an outfit option:\n' + i + '.' + ' Your ' + kristynsTop + ', the ' + kristynsBtm + ', and your ' + kristynsAcc + '.')
+// }
 
 // for (i = 1; i < 4; i++) {
 //   const a = thomsCloset[0][Math.floor(Math.random()*4)]
 //   const b = thomsCloset[1][Math.floor(Math.random()*3)]
 //   const c = thomsCloset[2][Math.floor(Math.random()*3)]
-//   console.log('Thom\'s outfit option:\n' + i + '.' + ' A ' + a + ', some ' + b + ', and your ' + c + '.')
+//   console.log('Thom, here is an outfit option:\n' + i + '.' + ' A ' + a + ', some ' + b + ', and your ' + c + '.')
 // }
-
-
-// console.log('Tom, you have 3 choices of outfits you can wear:\n 1. A ' + a + ', some ' + b + ', and your ' + c + '.\n 2. A ' + a + ', some ' + b + ', and your ' + c + '.\n 3. A ' + a + ', some ' + b + ', and your ' + c + '.');
 
 // // // Dirty Laundry
 // for (i = 0; i < kristynsCloset.length; i++) {
@@ -184,7 +168,9 @@ for (i = 1; i < 4; i++) {
  
 // // // Inventory
 // for (i = 0; i < thomsCloset.length; i++) {
-//   console.log(thomsCloset[i]);
+//   if (i === 0) console.log('These are Thom\'s shirts: ' + thomsCloset[i]);
+//   else if (i === 1) console.log('These are Thom\'s pants: ' + thomsCloset[i]);
+//   else console.log('These are Thom\'s accessories: ' + thomsCloset[i])
 // }
 
 // //--------------- Multiples of 3 and 5 ----------------- //
